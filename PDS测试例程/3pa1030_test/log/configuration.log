@@ -1,0 +1,714 @@
+[Info] [2025-9-2 23:12:31] /***************************Start Configuration***************************/
+[Info] [2025-9-2 23:12:31] Path: D:/Software/FPGA_software/PDS_2022.2-SP6.1/bin
+[Info] [2025-9-2 23:12:31] Version: 138931
+[Info] [2025-9-2 23:12:32] Current Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:12:32] PDS Dir Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:14:32] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-9-2 23:14:32] Client Local host name:WIN-0NNQ1VHF135
+[Debug] [2025-9-2 23:14:32] Client Local Address:192.168.1.101
+[Debug] [2025-9-2 23:14:32] Client Local Address:192.168.232.1
+[Debug] [2025-9-2 23:14:32] Client Local Address:192.168.18.1
+[Debug] [2025-9-2 23:14:32] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-9-2 23:14:32] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-9-2 23:14:33] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-9-2 23:14:33] Finish.
+[Info] [2025-9-2 23:14:33] Connect server succeeded
+[Debug] [2025-9-2 23:14:33] Send RPC:1
+[Debug] [2025-9-2 23:14:33] Send cmd [check version information:40004] OK
+[Debug] [2025-9-2 23:14:33] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-9-2 23:14:33] Send RPC:2
+[Debug] [2025-9-2 23:14:33] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-9-2 23:14:33] Begin to send initialize chain cmd...
+[Debug] [2025-9-2 23:14:33] Send RPC:3
+[Debug] [2025-9-2 23:14:33] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-2 23:14:33] End to send initialize chain cmd.
+[Debug] [2025-9-2 23:14:33] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:14:33] Log::Print : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:14:34] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-9-2 23:14:34] Log::Print : The cable List : 
+
+[Debug] [2025-9-2 23:14:34] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Error] [2025-9-2 23:14:34] fail to exec Open config cable cmd...
+[Error] [2025-9-2 23:14:34] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2025-9-2 23:14:34] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2025-9-2 23:14:34] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Debug] [2025-9-2 23:15:42] Begin to send initialize chain cmd...
+[Debug] [2025-9-2 23:15:42] Send RPC:4
+[Debug] [2025-9-2 23:15:42] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-2 23:15:42] End to send initialize chain cmd.
+[Error] [2025-9-2 23:15:42] fail to exec Open config cable cmd...
+[Error] [2025-9-2 23:15:42] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2025-9-2 23:15:42] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2025-9-2 23:15:42] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Debug] [2025-9-2 23:15:50] Begin to send initialize chain cmd...
+[Debug] [2025-9-2 23:15:50] Send RPC:5
+[Debug] [2025-9-2 23:15:50] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-2 23:15:50] End to send initialize chain cmd.
+[Error] [2025-9-2 23:15:50] fail to exec Open config cable cmd...
+[Error] [2025-9-2 23:15:50] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2025-9-2 23:15:50] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2025-9-2 23:15:50] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Info] [2025-9-2 23:15:51] /***************************End Configration***************************/
+[Info] [2025-9-2 23:15:52] /***************************Start Configuration***************************/
+[Info] [2025-9-2 23:15:52] Path: D:/Software/FPGA_software/PDS_2022.2-SP6.1/bin
+[Info] [2025-9-2 23:15:52] Version: 138931
+[Info] [2025-9-2 23:15:53] Current Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:15:53] PDS Dir Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:15:56] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-9-2 23:15:56] Client Local host name:WIN-0NNQ1VHF135
+[Debug] [2025-9-2 23:15:56] Client Local Address:192.168.1.101
+[Debug] [2025-9-2 23:15:56] Client Local Address:192.168.232.1
+[Debug] [2025-9-2 23:15:56] Client Local Address:192.168.18.1
+[Debug] [2025-9-2 23:15:56] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-9-2 23:15:56] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-9-2 23:15:56] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-9-2 23:15:56] Finish.
+[Info] [2025-9-2 23:15:56] Connect server succeeded
+[Debug] [2025-9-2 23:15:56] Send RPC:1
+[Debug] [2025-9-2 23:15:56] Send cmd [check version information:40004] OK
+[Debug] [2025-9-2 23:15:56] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-9-2 23:15:56] Send RPC:2
+[Debug] [2025-9-2 23:15:56] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-9-2 23:15:56] Begin to send initialize chain cmd...
+[Debug] [2025-9-2 23:15:56] Send RPC:3
+[Debug] [2025-9-2 23:15:56] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-2 23:15:56] End to send initialize chain cmd.
+[Debug] [2025-9-2 23:15:56] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:15:56] Log::Print : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:15:57] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2025-9-2 23:15:57] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-9-2 23:15:57] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2025-9-2 23:15:57] begin the exec of open cable cmd...
+[Debug] [2025-9-2 23:15:57] Begin to deal with chain from server...
+[Debug] [2025-9-2 23:15:57] Begin to set user chain...
+[Debug] [2025-9-2 23:15:57] End to set user chain.
+[Debug] [2025-9-2 23:15:57] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:15:57] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:15:57] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-9-2 23:15:57] Log::Print : PGL50H
+[Debug] [2025-9-2 23:15:57] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-9-2 23:16:00] set OpenLastPath: D:/Pony/dev_board/ryan_ad/3pa1030_test/generate_bitstream/TOP.sbit
+[Debug] [2025-9-2 23:16:00] begin to get device info from CFG file...
+[Debug] [2025-9-2 23:16:00] end to get device info from CFG file...
+[Debug] [2025-9-2 23:16:00] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:16:00] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:16:00] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:16:00] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:16:00] End to deal wiht chain from server.
+[Debug] [2025-9-2 23:16:00] end the exec of open cable cmd.
+[Debug] [2025-9-2 23:16:00] COMMAND[Open config cable] execute successfully, takes 4.3 secs.
+[Debug] [2025-9-2 23:16:00] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.3 secs.
+[Info] [2025-9-2 23:16:22] /***************************End Configration***************************/
+[Info] [2025-9-2 23:38:21] /***************************Start Configuration***************************/
+[Info] [2025-9-2 23:38:21] Path: D:/Software/FPGA_software/PDS_2022.2-SP6.1/bin
+[Info] [2025-9-2 23:38:21] Version: 138931
+[Info] [2025-9-2 23:38:22] Current Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:38:22] PDS Dir Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:38:25] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-9-2 23:38:25] Client Local host name:WIN-0NNQ1VHF135
+[Debug] [2025-9-2 23:38:25] Client Local Address:192.168.1.101
+[Debug] [2025-9-2 23:38:25] Client Local Address:192.168.232.1
+[Debug] [2025-9-2 23:38:25] Client Local Address:192.168.18.1
+[Debug] [2025-9-2 23:38:25] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-9-2 23:38:25] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-9-2 23:38:26] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-9-2 23:38:26] Finish.
+[Info] [2025-9-2 23:38:26] Connect server succeeded
+[Debug] [2025-9-2 23:38:26] Send RPC:1
+[Debug] [2025-9-2 23:38:26] Send cmd [check version information:40004] OK
+[Debug] [2025-9-2 23:38:26] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-9-2 23:38:26] Send RPC:2
+[Debug] [2025-9-2 23:38:26] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-9-2 23:38:26] Begin to send initialize chain cmd...
+[Debug] [2025-9-2 23:38:26] Begin to send cmd of scanning flash device on board
+[Debug] [2025-9-2 23:38:26] Send RPC:3
+[Debug] [2025-9-2 23:38:26] Send cmd [Scan SPI Device On Board:20100] OK
+[Debug] [2025-9-2 23:38:26] End to send cmd of scanning flash device on board
+[Debug] [2025-9-2 23:38:26] End to send initialize chain cmd.
+[Debug] [2025-9-2 23:38:26] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:38:26] Log::Print : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:38:26] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2025-9-2 23:38:26] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-9-2 23:38:26] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2025-9-2 23:38:30] begin to scan flash device.
+[Error] [2025-9-2 23:38:30] fail to exec Scan SPI Device On Board cmd...
+[Debug] [2025-9-2 23:38:30] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Error] [2025-9-2 23:38:30] MsgOut: JtagServer-0335: No flash device detected, please check whether the cable is connected correctly, including independent power supply and ground, reset and SPI interface. In addition, you can also try to reduce the clock frequency of cable or replace with other cable.
+[Error] [2025-9-2 23:38:30] MsgOut: Configuration-0008: The command 'Scan SPI Device On Board' execute fail.
+[Debug] [2025-9-2 23:38:34] Begin to send initialize chain cmd...
+[Debug] [2025-9-2 23:38:34] Send RPC:4
+[Debug] [2025-9-2 23:38:34] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-2 23:38:34] End to send initialize chain cmd.
+[Debug] [2025-9-2 23:38:34] begin the exec of open cable cmd...
+[Debug] [2025-9-2 23:38:34] Begin to deal with chain from server...
+[Debug] [2025-9-2 23:38:34] Begin to set user chain...
+[Debug] [2025-9-2 23:38:34] End to set user chain.
+[Debug] [2025-9-2 23:38:34] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:38:34] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:38:34] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-9-2 23:38:34] Log::Print : PGL50H
+[Debug] [2025-9-2 23:38:34] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-9-2 23:38:36] set OpenLastPath: D:/Pony/dev_board/ryan_ad/3pa1030_test/generate_bitstream/top.sbit
+[Debug] [2025-9-2 23:38:36] begin to get device info from CFG file...
+[Debug] [2025-9-2 23:38:36] end to get device info from CFG file...
+[Debug] [2025-9-2 23:38:36] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:38:36] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:38:36] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:38:36] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:38:36] End to deal wiht chain from server.
+[Debug] [2025-9-2 23:38:36] end the exec of open cable cmd.
+[Debug] [2025-9-2 23:38:36] COMMAND[Open config cable] execute successfully, takes 1.9 secs.
+[Debug] [2025-9-2 23:38:36] Log::Print : COMMAND[Open config cable] execute successfully, takes 1.9 secs.
+[Debug] [2025-9-2 23:38:44] Begin to send scan outer flash cmd...
+[Debug] [2025-9-2 23:38:44] Send RPC:5
+[Debug] [2025-9-2 23:38:44] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2025-9-2 23:38:44] End to send scan outer flash cmd.
+[Debug] [2025-9-2 23:38:44] begin to exec scan jtag flash cmd...
+[Debug] [2025-9-2 23:38:44] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2025-9-2 23:38:44] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:38:44] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:38:54] selected file name is empty and ignore.
+[Debug] [2025-9-2 23:38:54] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2025-9-2 23:38:54] end to exec scan jtag flash cmd...
+[Debug] [2025-9-2 23:38:54] COMMAND[Scan Outer SPI Flash] execute successfully, takes 10.9 secs.
+[Debug] [2025-9-2 23:38:54] Log::Print : COMMAND[Scan Outer SPI Flash] execute successfully, takes 10.9 secs.
+[Debug] [2025-9-2 23:41:45] Begin to operate flash.
+[Debug] [2025-9-2 23:41:45] End to operate flash.
+[Debug] [2025-9-2 23:42:16] Send RPC:6
+[Debug] [2025-9-2 23:42:16] Send cmd [Update user flash device:20073] OK
+[Debug] [2025-9-2 23:42:16] COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:42:16] Log::Print : COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:42:22] Begin to operate flash.
+[Debug] [2025-9-2 23:42:22] End to operate flash.
+[Debug] [2025-9-2 23:42:37] Send RPC:7
+[Debug] [2025-9-2 23:42:37] Send cmd [Update user flash device:20073] OK
+[Debug] [2025-9-2 23:42:37] COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:42:37] Log::Print : COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:44:15] Begin to Converte file.
+[Debug] [2025-9-2 23:44:59] begin to parse sfc file.
+[Debug] [2025-9-2 23:44:59] begin to get device info from CFG file...
+[Debug] [2025-9-2 23:44:59] end to get device info from CFG file...
+[Debug] [2025-9-2 23:44:59] begin to get device info from CFG file...
+[Debug] [2025-9-2 23:44:59] end to get device info from CFG file...
+[Debug] [2025-9-2 23:44:59] end to parse sfc file.
+[Debug] [2025-9-2 23:44:59] Log::Print : The Start Address of bit file D:/Pony/dev_board/ryan_ad/3pa1030_test/generate_bitstream/top.sbit: 0x0
+[Debug] [2025-9-2 23:45:00] End to Converte file.
+[Debug] [2025-9-2 23:45:15] Begin to operte outer flash through FPGA...
+[Error] [2025-9-2 23:45:16] PGL50H not support this function
+[Debug] [2025-9-2 23:45:18] Begin to send scan outer flash cmd...
+[Debug] [2025-9-2 23:45:18] Send RPC:8
+[Debug] [2025-9-2 23:45:18] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2025-9-2 23:45:18] End to send scan outer flash cmd.
+[Error] [2025-9-2 23:45:18] fail to exec Scan Outer SPI Flash cmd...
+[Error] [2025-9-2 23:45:18] MsgOut: JtagServer-0336: Flash id is 0x0, maybe the clock frequency is high or this flash is not supported, please reduce the clock frequency of cable or replace with other flash.
+[Error] [2025-9-2 23:45:18] MsgOut: Configuration-0008: The command 'Scan Outer SPI Flash' execute fail.
+[Debug] [2025-9-2 23:45:31] Begin to send programming cmd...
+[Debug] [2025-9-2 23:45:31] Send RPC:9
+[Debug] [2025-9-2 23:45:31] Begin to send program data.
+[Debug] [2025-9-2 23:45:31] End to send program data.
+[Debug] [2025-9-2 23:45:31] Send cmd [Program:20002] OK
+[Error] [2025-9-2 23:45:31] fail to exec Program cmd...
+[Debug] [2025-9-2 23:45:31] End to send programming cmd.
+[Error] [2025-9-2 23:45:31] MsgOut: JtagServer-0001: No PANGO USB CABLE II cable was found in system.
+[Error] [2025-9-2 23:45:31] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Error] [2025-9-2 23:45:31] MsgOut: Configuration-0008: The command 'Program' execute fail.
+[Info] [2025-9-2 23:45:44] /***************************End Configration***************************/
+[Info] [2025-9-2 23:45:55] /***************************Start Configuration***************************/
+[Info] [2025-9-2 23:45:55] Path: D:/Software/FPGA_software/PDS_2022.2-SP6.1/bin
+[Info] [2025-9-2 23:45:55] Version: 138931
+[Info] [2025-9-2 23:45:56] Current Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:45:56] PDS Dir Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:46:11] /***************************End Configration***************************/
+[Info] [2025-9-2 23:46:47] /***************************Start Configuration***************************/
+[Info] [2025-9-2 23:46:47] Path: D:/Software/FPGA_software/PDS_2022.2-SP6.1/bin
+[Info] [2025-9-2 23:46:47] Version: 138931
+[Info] [2025-9-2 23:46:48] Current Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:46:48] PDS Dir Path: D:/Pony/dev_board/ryan_ad/3pa1030_test
+[Info] [2025-9-2 23:46:50] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-9-2 23:46:50] Client Local host name:WIN-0NNQ1VHF135
+[Debug] [2025-9-2 23:46:50] Client Local Address:192.168.1.101
+[Debug] [2025-9-2 23:46:50] Client Local Address:192.168.232.1
+[Debug] [2025-9-2 23:46:50] Client Local Address:192.168.18.1
+[Debug] [2025-9-2 23:46:50] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-9-2 23:46:50] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-9-2 23:46:50] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-9-2 23:46:50] Finish.
+[Info] [2025-9-2 23:46:50] Connect server succeeded
+[Debug] [2025-9-2 23:46:50] Send RPC:1
+[Debug] [2025-9-2 23:46:50] Send cmd [check version information:40004] OK
+[Debug] [2025-9-2 23:46:50] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-9-2 23:46:50] Send RPC:2
+[Debug] [2025-9-2 23:46:50] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-9-2 23:46:50] Begin to send initialize chain cmd...
+[Debug] [2025-9-2 23:46:50] Send RPC:3
+[Debug] [2025-9-2 23:46:50] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-2 23:46:50] End to send initialize chain cmd.
+[Debug] [2025-9-2 23:46:50] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:46:50] Log::Print : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-9-2 23:46:51] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2025-9-2 23:46:51] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-9-2 23:46:51] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2025-9-2 23:46:52] begin the exec of open cable cmd...
+[Debug] [2025-9-2 23:46:52] Begin to deal with chain from server...
+[Debug] [2025-9-2 23:46:52] Begin to set user chain...
+[Debug] [2025-9-2 23:46:52] End to set user chain.
+[Debug] [2025-9-2 23:46:52] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:46:52] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:46:52] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-9-2 23:46:52] Log::Print : PGL50H
+[Debug] [2025-9-2 23:46:52] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-9-2 23:46:54] set OpenLastPath: D:/Pony/dev_board/ryan_ad/3pa1030_test/generate_bitstream/top.sbit
+[Debug] [2025-9-2 23:46:54] begin to get device info from CFG file...
+[Debug] [2025-9-2 23:46:54] end to get device info from CFG file...
+[Debug] [2025-9-2 23:46:54] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:46:54] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:46:54] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:46:54] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:46:54] End to deal wiht chain from server.
+[Debug] [2025-9-2 23:46:54] end the exec of open cable cmd.
+[Debug] [2025-9-2 23:46:54] COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2025-9-2 23:46:54] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2025-9-2 23:46:56] Begin to send scan outer flash cmd...
+[Debug] [2025-9-2 23:46:56] Send RPC:4
+[Debug] [2025-9-2 23:46:56] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2025-9-2 23:46:56] End to send scan outer flash cmd.
+[Debug] [2025-9-2 23:46:56] begin to exec scan jtag flash cmd...
+[Debug] [2025-9-2 23:46:56] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2025-9-2 23:46:56] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:46:56] End to update graphic item and tree item ...
+[Info] [2025-9-2 23:46:57] set OpenLastPath: D:/Pony/dev_board/ryan_ad/3pa1030_test/generate_bitstream/top.sfc
+[Debug] [2025-9-2 23:46:57] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2025-9-2 23:46:57] end to check SFC File and Flash Device Read Mode.
+[Debug] [2025-9-2 23:46:57] Begin to update graphic item and tree item ...
+[Debug] [2025-9-2 23:46:57] End to update graphic item and tree item ...
+[Debug] [2025-9-2 23:46:57] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2025-9-2 23:46:57] end to exec scan jtag flash cmd...
+[Debug] [2025-9-2 23:46:57] COMMAND[Scan Outer SPI Flash] execute successfully, takes 1.6 secs.
+[Debug] [2025-9-2 23:46:57] Log::Print : COMMAND[Scan Outer SPI Flash] execute successfully, takes 1.6 secs.
+[Debug] [2025-9-2 23:47:01] begin to send promgram jtag flash cmd.
+[Debug] [2025-9-2 23:47:01] begin to send jtag flash erase cmd
+[Debug] [2025-9-2 23:47:01] Send RPC:5
+[Debug] [2025-9-2 23:47:01] Begin to send embed flash erase data.
+[Debug] [2025-9-2 23:47:01] Begin to send flash erase data.
+[Debug] [2025-9-2 23:47:01] End to send flash erase data.
+[Debug] [2025-9-2 23:47:01] End to send embed flash erase data.
+[Debug] [2025-9-2 23:47:01] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2025-9-2 23:47:01] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2025-9-2 23:47:01] The value of Progress is 1
+[Debug] [2025-9-2 23:47:03] The value of Progress is 6
+[Debug] [2025-9-2 23:47:04] The value of Progress is 12
+[Debug] [2025-9-2 23:47:04] The value of Progress is 15
+[Debug] [2025-9-2 23:47:05] The value of Progress is 21
+[Debug] [2025-9-2 23:47:06] The value of Progress is 27
+[Debug] [2025-9-2 23:47:06] The value of Progress is 30
+[Debug] [2025-9-2 23:47:07] The value of Progress is 36
+[Debug] [2025-9-2 23:47:08] The value of Progress is 42
+[Debug] [2025-9-2 23:47:08] The value of Progress is 45
+[Debug] [2025-9-2 23:47:09] The value of Progress is 51
+[Debug] [2025-9-2 23:47:10] The value of Progress is 57
+[Debug] [2025-9-2 23:47:10] The value of Progress is 60
+[Debug] [2025-9-2 23:47:11] The value of Progress is 66
+[Debug] [2025-9-2 23:47:12] The value of Progress is 72
+[Debug] [2025-9-2 23:47:12] The value of Progress is 75
+[Debug] [2025-9-2 23:47:13] The value of Progress is 81
+[Debug] [2025-9-2 23:47:14] The value of Progress is 87
+[Debug] [2025-9-2 23:47:14] The value of Progress is 90
+[Debug] [2025-9-2 23:47:15] The value of Progress is 96
+[Debug] [2025-9-2 23:47:15] The value of Progress is 100
+[Debug] [2025-9-2 23:47:15] COMMAND[Erase Outer Flash] execute finish, takes 14.2 secs.
+[Debug] [2025-9-2 23:47:15] end to send jtag flash erase cmd.
+[Debug] [2025-9-2 23:47:15] Send RPC:6
+[Debug] [2025-9-2 23:47:15] Begin to send jtag flash program data.
+[Debug] [2025-9-2 23:47:15] Begin to send flash program data.
+[Debug] [2025-9-2 23:47:15] End to send flash program data.
+[Debug] [2025-9-2 23:47:15] End to send embed flash program data.
+[Debug] [2025-9-2 23:47:15] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2025-9-2 23:47:15] Log::Print : COMMAND[Erase Outer Flash] execute finish, takes 14.2 secs.
+[Debug] [2025-9-2 23:47:15] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2025-9-2 23:47:18] The value of Progress is 1
+[Debug] [2025-9-2 23:47:20] The value of Progress is 6
+[Debug] [2025-9-2 23:47:21] The value of Progress is 10
+[Debug] [2025-9-2 23:47:23] The value of Progress is 15
+[Debug] [2025-9-2 23:47:24] The value of Progress is 20
+[Debug] [2025-9-2 23:47:26] The value of Progress is 25
+[Debug] [2025-9-2 23:47:28] The value of Progress is 30
+[Debug] [2025-9-2 23:47:29] The value of Progress is 35
+[Debug] [2025-9-2 23:47:31] The value of Progress is 40
+[Debug] [2025-9-2 23:47:32] The value of Progress is 45
+[Debug] [2025-9-2 23:47:34] The value of Progress is 50
+[Debug] [2025-9-2 23:47:36] The value of Progress is 55
+[Debug] [2025-9-2 23:47:37] The value of Progress is 60
+[Debug] [2025-9-2 23:47:39] The value of Progress is 65
+[Debug] [2025-9-2 23:47:41] The value of Progress is 70
+[Debug] [2025-9-2 23:47:42] The value of Progress is 75
+[Debug] [2025-9-2 23:47:44] The value of Progress is 80
+[Debug] [2025-9-2 23:47:46] The value of Progress is 85
+[Debug] [2025-9-2 23:47:47] The value of Progress is 90
+[Debug] [2025-9-2 23:47:49] The value of Progress is 95
+[Debug] [2025-9-2 23:47:50] The value of Progress is 100
+[Debug] [2025-9-2 23:47:51] COMMAND[Program Outer Flash] execute finish, takes 35.3 secs.
+[Debug] [2025-9-2 23:47:51] begin to send jtag flash verify cmd
+[Debug] [2025-9-2 23:47:51] Send RPC:7
+[Debug] [2025-9-2 23:47:51] Begin to send embed flash verify data.
+[Debug] [2025-9-2 23:47:51] Begin to send flash verify data.
+[Debug] [2025-9-2 23:47:51] End to send flash verify data.
+[Debug] [2025-9-2 23:47:51] End to send embed flash verify data.
+[Debug] [2025-9-2 23:47:51] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2025-9-2 23:47:51] Log::Print : COMMAND[Program Outer Flash] execute finish, takes 35.3 secs.
+[Debug] [2025-9-2 23:47:51] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2025-9-2 23:47:51] The value of Progress is 1
+[Debug] [2025-9-2 23:47:51] The value of Progress is 6
+[Debug] [2025-9-2 23:47:51] The value of Progress is 10
+[Debug] [2025-9-2 23:47:51] The value of Progress is 15
+[Debug] [2025-9-2 23:47:51] The value of Progress is 20
+[Debug] [2025-9-2 23:47:51] The value of Progress is 25
+[Debug] [2025-9-2 23:47:52] The value of Progress is 30
+[Debug] [2025-9-2 23:47:52] The value of Progress is 35
+[Debug] [2025-9-2 23:47:52] The value of Progress is 40
+[Debug] [2025-9-2 23:47:52] The value of Progress is 45
+[Debug] [2025-9-2 23:47:52] The value of Progress is 50
+[Debug] [2025-9-2 23:47:52] The value of Progress is 55
+[Debug] [2025-9-2 23:47:52] The value of Progress is 60
+[Debug] [2025-9-2 23:47:52] The value of Progress is 65
+[Debug] [2025-9-2 23:47:52] The value of Progress is 70
+[Debug] [2025-9-2 23:47:52] The value of Progress is 75
+[Debug] [2025-9-2 23:47:53] The value of Progress is 80
+[Debug] [2025-9-2 23:47:53] The value of Progress is 85
+[Debug] [2025-9-2 23:47:53] The value of Progress is 90
+[Debug] [2025-9-2 23:47:53] The value of Progress is 95
+[Debug] [2025-9-2 23:47:53] The value of Progress is 100
+[Debug] [2025-9-2 23:47:53] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2025-9-2 23:47:53] end to send jtag flash verify cmd
+[Debug] [2025-9-2 23:47:53] end to send jtag flash program cmd.
+[Debug] [2025-9-2 23:47:53] Log::Print : COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Info] [2025-9-2 23:49:52] /***************************End Configration***************************/
+[Info] [2025-9-17 12:00:35] /***************************Start Configuration***************************/
+[Info] [2025-9-17 12:00:35] Path: D:/pango/PDS_2022.2-SP6.4/bin
+[Info] [2025-9-17 12:00:35] Version: 146967
+[Info] [2025-9-17 12:00:36] Current Path: E:/3pa1030_test
+[Info] [2025-9-17 12:00:36] PDS Dir Path: E:/3pa1030_test
+[Debug] [2025-9-17 12:00:42] Begin to Converte file.
+[Debug] [2025-9-17 12:00:45] End to Converte file.
+[Info] [2025-9-17 12:01:19] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-9-17 12:01:19] Client Local host name:DESKTOP-JSU4CD1
+[Debug] [2025-9-17 12:01:19] Client Local Address:192.168.10.202
+[Debug] [2025-9-17 12:01:19] Client Local Address:192.168.47.1
+[Debug] [2025-9-17 12:01:19] Client Local Address:192.168.81.1
+[Debug] [2025-9-17 12:01:19] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-9-17 12:01:19] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-9-17 12:01:19] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-9-17 12:01:19] Finish.
+[Info] [2025-9-17 12:01:19] Connect server succeeded
+[Debug] [2025-9-17 12:01:19] Send RPC:1
+[Debug] [2025-9-17 12:01:19] Send cmd [check version information:40004] OK
+[Debug] [2025-9-17 12:01:19] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-9-17 12:01:21] Send RPC:2
+[Debug] [2025-9-17 12:01:21] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-9-17 12:01:21] Begin to send initialize chain cmd...
+[Debug] [2025-9-17 12:01:21] Send RPC:3
+[Debug] [2025-9-17 12:01:21] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-17 12:01:21] End to send initialize chain cmd.
+[Debug] [2025-9-17 12:01:21] COMMAND[check version information] execute successfully, takes 1.6 secs.
+[Debug] [2025-9-17 12:01:21] Log::Print : COMMAND[check version information] execute successfully, takes 1.6 secs.
+[Debug] [2025-9-17 12:01:23] COMMAND[get_cable_paras] execute successfully, takes 1.9 secs.
+[Debug] [2025-9-17 12:01:23] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-9-17 12:01:23] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.9 secs.
+[Debug] [2025-9-17 12:01:24] begin the exec of open cable cmd...
+[Debug] [2025-9-17 12:01:24] Begin to deal with chain from server...
+[Debug] [2025-9-17 12:01:24] Begin to set user chain...
+[Debug] [2025-9-17 12:01:24] End to set user chain.
+[Debug] [2025-9-17 12:01:24] Begin to update graphic item and tree item ...
+[Debug] [2025-9-17 12:01:24] End to update graphic item and tree item ...
+[Debug] [2025-9-17 12:01:24] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-9-17 12:01:24] Log::Print : PGL50H
+[Debug] [2025-9-17 12:01:24] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-9-17 12:01:28] set OpenLastPath: E:/3pa1030_test/generate_bitstream/top.sbit
+[Debug] [2025-9-17 12:01:28] begin to get device info from CFG file...
+[Debug] [2025-9-17 12:01:28] end to get device info from CFG file...
+[Debug] [2025-9-17 12:01:28] Begin to update graphic item and tree item ...
+[Debug] [2025-9-17 12:01:28] End to update graphic item and tree item ...
+[Debug] [2025-9-17 12:01:28] Begin to update graphic item and tree item ...
+[Debug] [2025-9-17 12:01:28] End to update graphic item and tree item ...
+[Debug] [2025-9-17 12:01:28] End to deal wiht chain from server.
+[Debug] [2025-9-17 12:01:28] end the exec of open cable cmd.
+[Debug] [2025-9-17 12:01:28] COMMAND[Open config cable] execute successfully, takes 7.7 secs.
+[Debug] [2025-9-17 12:01:28] Log::Print : COMMAND[Open config cable] execute successfully, takes 7.7 secs.
+[Info] [2025-9-17 12:01:33] /***************************End Configration***************************/
+[Info] [2025-9-17 14:03:18] /***************************Start Configuration***************************/
+[Info] [2025-9-17 14:03:18] Path: D:/pango/PDS_2022.2-SP6.4/bin
+[Info] [2025-9-17 14:03:18] Version: 146967
+[Info] [2025-9-17 14:03:19] Current Path: E:/3pa1030_test
+[Info] [2025-9-17 14:03:19] PDS Dir Path: E:/3pa1030_test
+[Info] [2025-9-17 14:03:23] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-9-17 14:03:23] Client Local host name:DESKTOP-JSU4CD1
+[Debug] [2025-9-17 14:03:23] Client Local Address:192.168.10.202
+[Debug] [2025-9-17 14:03:23] Client Local Address:192.168.47.1
+[Debug] [2025-9-17 14:03:23] Client Local Address:192.168.81.1
+[Debug] [2025-9-17 14:03:23] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-9-17 14:03:23] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-9-17 14:03:24] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-9-17 14:03:24] Finish.
+[Info] [2025-9-17 14:03:24] Connect server succeeded
+[Debug] [2025-9-17 14:03:24] Send RPC:1
+[Debug] [2025-9-17 14:03:24] Send cmd [check version information:40004] OK
+[Debug] [2025-9-17 14:03:24] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-9-17 14:03:25] Send RPC:2
+[Debug] [2025-9-17 14:03:25] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-9-17 14:03:25] Begin to send initialize chain cmd...
+[Debug] [2025-9-17 14:03:25] Send RPC:3
+[Debug] [2025-9-17 14:03:25] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-17 14:03:25] End to send initialize chain cmd.
+[Debug] [2025-9-17 14:03:25] COMMAND[check version information] execute successfully, takes 1.1 secs.
+[Debug] [2025-9-17 14:03:25] Log::Print : COMMAND[check version information] execute successfully, takes 1.1 secs.
+[Debug] [2025-9-17 14:03:27] COMMAND[get_cable_paras] execute successfully, takes 1.9 secs.
+[Debug] [2025-9-17 14:03:27] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-9-17 14:03:27] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.9 secs.
+[Debug] [2025-9-17 14:03:27] begin the exec of open cable cmd...
+[Debug] [2025-9-17 14:03:27] Begin to deal with chain from server...
+[Debug] [2025-9-17 14:03:27] Begin to set user chain...
+[Debug] [2025-9-17 14:03:27] End to set user chain.
+[Debug] [2025-9-17 14:03:27] Begin to update graphic item and tree item ...
+[Debug] [2025-9-17 14:03:27] End to update graphic item and tree item ...
+[Debug] [2025-9-17 14:03:27] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-9-17 14:03:27] Log::Print : PGL50H
+[Debug] [2025-9-17 14:03:27] Log::Print : This device configure situation (done bit): 1
+[Debug] [2025-9-17 14:03:29] selected file name is empty and ignore.
+[Debug] [2025-9-17 14:03:29] Begin to update graphic item and tree item ...
+[Debug] [2025-9-17 14:03:29] End to update graphic item and tree item ...
+[Debug] [2025-9-17 14:03:29] End to deal wiht chain from server.
+[Debug] [2025-9-17 14:03:29] end the exec of open cable cmd.
+[Debug] [2025-9-17 14:03:29] COMMAND[Open config cable] execute successfully, takes 4.5 secs.
+[Debug] [2025-9-17 14:03:29] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.5 secs.
+[Debug] [2025-9-17 14:03:32] Begin to send scan outer flash cmd...
+[Debug] [2025-9-17 14:03:32] Send RPC:4
+[Debug] [2025-9-17 14:03:32] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2025-9-17 14:03:32] End to send scan outer flash cmd.
+[Debug] [2025-9-17 14:03:33] begin to exec scan jtag flash cmd...
+[Debug] [2025-9-17 14:03:33] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2025-9-17 14:03:33] Begin to update graphic item and tree item ...
+[Debug] [2025-9-17 14:03:33] End to update graphic item and tree item ...
+[Debug] [2025-9-17 14:03:40] selected file name is empty and ignore.
+[Debug] [2025-9-17 14:03:40] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2025-9-17 14:03:40] end to exec scan jtag flash cmd...
+[Debug] [2025-9-17 14:03:40] COMMAND[Scan Outer SPI Flash] execute successfully, takes 8.3 secs.
+[Debug] [2025-9-17 14:03:40] Log::Print : COMMAND[Scan Outer SPI Flash] execute successfully, takes 8.3 secs.
+[Debug] [2025-9-17 14:03:46] Begin to Converte file.
+[Debug] [2025-9-17 14:04:04] begin to parse sfc file.
+[Debug] [2025-9-17 14:04:04] begin to get device info from CFG file...
+[Debug] [2025-9-17 14:04:04] end to get device info from CFG file...
+[Debug] [2025-9-17 14:04:04] begin to get device info from CFG file...
+[Debug] [2025-9-17 14:04:04] end to get device info from CFG file...
+[Debug] [2025-9-17 14:04:04] end to parse sfc file.
+[Debug] [2025-9-17 14:04:04] Log::Print : The Start Address of bit file E:/3pa1030_test/generate_bitstream/top.sbit: 0x0
+[Debug] [2025-9-17 14:04:05] End to Converte file.
+[Debug] [2025-9-17 14:04:09] Begin to assign configuration file...
+[Info] [2025-9-17 14:04:12] set OpenLastPath: E:/3pa1030_test/generate_bitstream/top.sfc
+[Debug] [2025-9-17 14:04:12] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2025-9-17 14:04:12] end to check SFC File and Flash Device Read Mode.
+[Debug] [2025-9-17 14:04:12] Begin to update graphic item and tree item ...
+[Debug] [2025-9-17 14:04:12] End to update graphic item and tree item ...
+[Debug] [2025-9-17 14:04:12] End to assign configuration file...
+[Debug] [2025-9-17 14:04:17] begin to send promgram jtag flash cmd.
+[Debug] [2025-9-17 14:04:17] begin to send jtag flash erase cmd
+[Debug] [2025-9-17 14:04:17] Send RPC:5
+[Debug] [2025-9-17 14:04:17] Begin to send embed flash erase data.
+[Debug] [2025-9-17 14:04:17] Begin to send flash erase data.
+[Debug] [2025-9-17 14:04:17] End to send flash erase data.
+[Debug] [2025-9-17 14:04:17] End to send embed flash erase data.
+[Debug] [2025-9-17 14:04:17] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2025-9-17 14:04:17] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2025-9-17 14:04:17] The value of Progress is 1
+[Debug] [2025-9-17 14:04:19] The value of Progress is 6
+[Debug] [2025-9-17 14:04:20] The value of Progress is 12
+[Debug] [2025-9-17 14:04:20] The value of Progress is 15
+[Debug] [2025-9-17 14:04:21] The value of Progress is 21
+[Debug] [2025-9-17 14:04:22] The value of Progress is 27
+[Debug] [2025-9-17 14:04:22] The value of Progress is 30
+[Debug] [2025-9-17 14:04:23] The value of Progress is 36
+[Debug] [2025-9-17 14:04:24] The value of Progress is 42
+[Debug] [2025-9-17 14:04:24] The value of Progress is 45
+[Debug] [2025-9-17 14:04:25] The value of Progress is 51
+[Debug] [2025-9-17 14:04:26] The value of Progress is 57
+[Debug] [2025-9-17 14:04:27] The value of Progress is 60
+[Debug] [2025-9-17 14:04:27] The value of Progress is 66
+[Debug] [2025-9-17 14:04:28] The value of Progress is 72
+[Debug] [2025-9-17 14:04:28] The value of Progress is 75
+[Debug] [2025-9-17 14:04:29] The value of Progress is 81
+[Debug] [2025-9-17 14:04:30] The value of Progress is 87
+[Debug] [2025-9-17 14:04:31] The value of Progress is 90
+[Debug] [2025-9-17 14:04:32] The value of Progress is 96
+[Debug] [2025-9-17 14:04:32] The value of Progress is 100
+[Debug] [2025-9-17 14:04:32] COMMAND[Erase Outer Flash] execute finish, takes 14.8 secs.
+[Debug] [2025-9-17 14:04:32] end to send jtag flash erase cmd.
+[Debug] [2025-9-17 14:04:32] Send RPC:6
+[Debug] [2025-9-17 14:04:32] Begin to send jtag flash program data.
+[Debug] [2025-9-17 14:04:32] Begin to send flash program data.
+[Debug] [2025-9-17 14:04:32] End to send flash program data.
+[Debug] [2025-9-17 14:04:32] End to send embed flash program data.
+[Debug] [2025-9-17 14:04:32] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2025-9-17 14:04:32] Log::Print : COMMAND[Erase Outer Flash] execute finish, takes 14.8 secs.
+[Debug] [2025-9-17 14:04:32] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2025-9-17 14:04:34] The value of Progress is 1
+[Debug] [2025-9-17 14:04:36] The value of Progress is 6
+[Debug] [2025-9-17 14:04:38] The value of Progress is 10
+[Debug] [2025-9-17 14:04:39] The value of Progress is 15
+[Debug] [2025-9-17 14:04:41] The value of Progress is 20
+[Debug] [2025-9-17 14:04:42] The value of Progress is 25
+[Debug] [2025-9-17 14:04:44] The value of Progress is 30
+[Debug] [2025-9-17 14:04:46] The value of Progress is 35
+[Debug] [2025-9-17 14:04:47] The value of Progress is 40
+[Debug] [2025-9-17 14:04:49] The value of Progress is 45
+[Debug] [2025-9-17 14:04:51] The value of Progress is 50
+[Debug] [2025-9-17 14:04:52] The value of Progress is 55
+[Debug] [2025-9-17 14:04:54] The value of Progress is 60
+[Debug] [2025-9-17 14:04:56] The value of Progress is 65
+[Debug] [2025-9-17 14:04:57] The value of Progress is 70
+[Debug] [2025-9-17 14:04:59] The value of Progress is 75
+[Debug] [2025-9-17 14:05:01] The value of Progress is 80
+[Debug] [2025-9-17 14:05:02] The value of Progress is 85
+[Debug] [2025-9-17 14:05:04] The value of Progress is 90
+[Debug] [2025-9-17 14:05:05] The value of Progress is 95
+[Debug] [2025-9-17 14:05:07] The value of Progress is 100
+[Debug] [2025-9-17 14:05:07] COMMAND[Program Outer Flash] execute finish, takes 35.5 secs.
+[Debug] [2025-9-17 14:05:07] begin to send jtag flash verify cmd
+[Debug] [2025-9-17 14:05:07] Send RPC:7
+[Debug] [2025-9-17 14:05:07] Begin to send embed flash verify data.
+[Debug] [2025-9-17 14:05:07] Begin to send flash verify data.
+[Debug] [2025-9-17 14:05:07] End to send flash verify data.
+[Debug] [2025-9-17 14:05:07] End to send embed flash verify data.
+[Debug] [2025-9-17 14:05:07] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2025-9-17 14:05:07] Log::Print : COMMAND[Program Outer Flash] execute finish, takes 35.5 secs.
+[Debug] [2025-9-17 14:05:07] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2025-9-17 14:05:08] The value of Progress is 1
+[Debug] [2025-9-17 14:05:08] The value of Progress is 6
+[Debug] [2025-9-17 14:05:08] The value of Progress is 10
+[Debug] [2025-9-17 14:05:08] The value of Progress is 15
+[Debug] [2025-9-17 14:05:08] The value of Progress is 20
+[Debug] [2025-9-17 14:05:08] The value of Progress is 25
+[Debug] [2025-9-17 14:05:08] The value of Progress is 30
+[Debug] [2025-9-17 14:05:09] The value of Progress is 35
+[Debug] [2025-9-17 14:05:09] The value of Progress is 40
+[Debug] [2025-9-17 14:05:09] The value of Progress is 45
+[Debug] [2025-9-17 14:05:09] The value of Progress is 50
+[Debug] [2025-9-17 14:05:09] The value of Progress is 55
+[Debug] [2025-9-17 14:05:09] The value of Progress is 60
+[Debug] [2025-9-17 14:05:09] The value of Progress is 65
+[Debug] [2025-9-17 14:05:09] The value of Progress is 70
+[Debug] [2025-9-17 14:05:09] The value of Progress is 75
+[Debug] [2025-9-17 14:05:09] The value of Progress is 80
+[Debug] [2025-9-17 14:05:10] The value of Progress is 85
+[Debug] [2025-9-17 14:05:10] The value of Progress is 90
+[Debug] [2025-9-17 14:05:10] The value of Progress is 95
+[Debug] [2025-9-17 14:05:10] The value of Progress is 100
+[Debug] [2025-9-17 14:05:10] COMMAND[Verify Outer Flash] execute successfully, takes 2.8 secs.
+[Debug] [2025-9-17 14:05:10] end to send jtag flash verify cmd
+[Debug] [2025-9-17 14:05:10] end to send jtag flash program cmd.
+[Debug] [2025-9-17 14:05:10] Log::Print : COMMAND[Verify Outer Flash] execute successfully, takes 2.8 secs.
+[Info] [2025-9-17 14:05:18] /***************************End Configration***************************/
+[Info] [2025-9-19 15:30:46] /***************************Start Configuration***************************/
+[Info] [2025-9-19 15:30:46] Path: D:/pango/PDS_2022.2-SP6.4/bin
+[Info] [2025-9-19 15:30:46] Version: 146967
+[Info] [2025-9-19 15:30:47] Current Path: E:/3pa1030_test
+[Info] [2025-9-19 15:30:47] PDS Dir Path: E:/3pa1030_test
+[Info] [2025-9-19 15:30:53] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-9-19 15:30:53] Client Local host name:PJJ
+[Debug] [2025-9-19 15:30:53] Client Local Address:192.168.10.202
+[Debug] [2025-9-19 15:30:53] Client Local Address:192.168.47.1
+[Debug] [2025-9-19 15:30:53] Client Local Address:192.168.81.1
+[Debug] [2025-9-19 15:30:53] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-9-19 15:30:53] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-9-19 15:30:53] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-9-19 15:30:53] Finish.
+[Info] [2025-9-19 15:30:53] Connect server succeeded
+[Debug] [2025-9-19 15:30:53] Send RPC:1
+[Debug] [2025-9-19 15:30:53] Send cmd [check version information:40004] OK
+[Debug] [2025-9-19 15:30:53] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-9-19 15:30:53] Send RPC:2
+[Debug] [2025-9-19 15:30:53] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-9-19 15:30:53] Begin to send initialize chain cmd...
+[Debug] [2025-9-19 15:30:53] Send RPC:3
+[Debug] [2025-9-19 15:30:53] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-19 15:30:53] End to send initialize chain cmd.
+[Debug] [2025-9-19 15:30:53] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-9-19 15:30:53] Log::Print : COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-9-19 15:30:54] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2025-9-19 15:30:54] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-9-19 15:30:54] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2025-9-19 15:30:55] begin the exec of open cable cmd...
+[Debug] [2025-9-19 15:30:55] Begin to deal with chain from server...
+[Debug] [2025-9-19 15:30:55] Begin to set user chain...
+[Debug] [2025-9-19 15:30:55] End to set user chain.
+[Debug] [2025-9-19 15:30:55] Begin to update graphic item and tree item ...
+[Debug] [2025-9-19 15:30:55] End to update graphic item and tree item ...
+[Debug] [2025-9-19 15:30:55] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-9-19 15:30:55] Log::Print : PGL50H
+[Debug] [2025-9-19 15:30:55] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-9-19 15:30:57] set OpenLastPath: E:/3pa1030_test/generate_bitstream/top.sbit
+[Debug] [2025-9-19 15:30:57] begin to get device info from CFG file...
+[Debug] [2025-9-19 15:30:57] end to get device info from CFG file...
+[Debug] [2025-9-19 15:30:57] Begin to update graphic item and tree item ...
+[Debug] [2025-9-19 15:30:57] End to update graphic item and tree item ...
+[Debug] [2025-9-19 15:30:57] Begin to update graphic item and tree item ...
+[Debug] [2025-9-19 15:30:57] End to update graphic item and tree item ...
+[Debug] [2025-9-19 15:30:57] End to deal wiht chain from server.
+[Debug] [2025-9-19 15:30:57] end the exec of open cable cmd.
+[Debug] [2025-9-19 15:30:57] COMMAND[Open config cable] execute successfully, takes 3.4 secs.
+[Debug] [2025-9-19 15:30:57] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.4 secs.
+[Info] [2025-9-19 15:31:02] /***************************End Configration***************************/
+[Info] [2025-9-19 15:41:47] /***************************Start Configuration***************************/
+[Info] [2025-9-19 15:41:47] Path: D:/pango/PDS_2022.2-SP6.4/bin
+[Info] [2025-9-19 15:41:47] Version: 146967
+[Info] [2025-9-19 15:41:48] Current Path: E:/3pa1030_test
+[Info] [2025-9-19 15:41:48] PDS Dir Path: E:/3pa1030_test
+[Info] [2025-9-19 15:41:52] /***************************End Configration***************************/
+[Info] [2025-9-19 15:41:54] /***************************Start Configuration***************************/
+[Info] [2025-9-19 15:41:54] Path: D:/pango/PDS_2022.2-SP6.4/bin
+[Info] [2025-9-19 15:41:54] Version: 146967
+[Info] [2025-9-19 15:41:55] Current Path: E:/3pa1030_test
+[Info] [2025-9-19 15:41:55] PDS Dir Path: E:/3pa1030_test
+[Info] [2025-9-19 15:41:58] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-9-19 15:41:58] Client Local host name:PJJ
+[Debug] [2025-9-19 15:41:58] Client Local Address:192.168.10.202
+[Debug] [2025-9-19 15:41:58] Client Local Address:192.168.47.1
+[Debug] [2025-9-19 15:41:58] Client Local Address:192.168.81.1
+[Debug] [2025-9-19 15:41:58] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-9-19 15:41:58] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-9-19 15:41:59] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-9-19 15:41:59] Finish.
+[Info] [2025-9-19 15:41:59] Connect server succeeded
+[Debug] [2025-9-19 15:41:59] Send RPC:1
+[Debug] [2025-9-19 15:41:59] Send cmd [check version information:40004] OK
+[Debug] [2025-9-19 15:41:59] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-9-19 15:41:59] Send RPC:2
+[Debug] [2025-9-19 15:41:59] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-9-19 15:41:59] Begin to send initialize chain cmd...
+[Debug] [2025-9-19 15:41:59] Send RPC:3
+[Debug] [2025-9-19 15:41:59] Send cmd [Open config cable:20001] OK
+[Debug] [2025-9-19 15:41:59] End to send initialize chain cmd.
+[Debug] [2025-9-19 15:41:59] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-9-19 15:41:59] Log::Print : COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-9-19 15:42:00] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-9-19 15:42:00] Log::Print : The cable List : 
+
+[Debug] [2025-9-19 15:42:00] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Error] [2025-9-19 15:42:00] fail to exec Open config cable cmd...
+[Error] [2025-9-19 15:42:00] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2025-9-19 15:42:00] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2025-9-19 15:42:00] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Info] [2025-9-19 15:42:06] /***************************End Configration***************************/

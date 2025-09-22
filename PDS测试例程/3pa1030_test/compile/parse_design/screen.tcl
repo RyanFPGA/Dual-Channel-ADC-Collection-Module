@@ -1,0 +1,1 @@
+.rtl_screen -top_module {top} -include_path {<E:/3pa1030_test>} -design_files {<E:/3pa1030_test/source/top.v|work><E:/3pa1030_test/ipcore/ad_clock/ad_clock.v|work>}

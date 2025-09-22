@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="synthesize_resource_utilization" title="Resource Utilization By Entity" column_number="33" tree="">
+        <column_headers>
+            <data>Module Inst Name</data>
+            <data>LUT</data>
+            <data>FF</data>
+            <data>Distributed RAM</data>
+            <data>APM</data>
+            <data>DRM</data>
+            <data>ADC</data>
+            <data>CGRA</data>
+            <data>CRYSTAL</data>
+            <data>DLL</data>
+            <data>DQSL</data>
+            <data>EFUSECODE</data>
+            <data>FLSIF</data>
+            <data>HMEMC</data>
+            <data>HSST</data>
+            <data>IO</data>
+            <data>IOCKDIV</data>
+            <data>IOCKDLY</data>
+            <data>IOCKGATE</data>
+            <data>IPAL</data>
+            <data>LUT CARRY</data>
+            <data>LUT6 MUX</data>
+            <data>LUT7 MUX</data>
+            <data>LUT8 MUX</data>
+            <data>OSC</data>
+            <data>PCIE</data>
+            <data>PLL</data>
+            <data>RCKB</data>
+            <data>RESCAL</data>
+            <data>SCANCHAIN</data>
+            <data>START</data>
+            <data>UDID</data>
+            <data>USCM</data>
+        </column_headers>
+        <row>
+            <data>top</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>27</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>1</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>1</data>
+            <data>0</data>
+            <data>0</data>
+            <row>
+                <data>u_pll</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>1</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+            </row>
+        </row>
+    </table>
+    <table id="synthesize_check_timing_summary" title="Check Timing Summary" column_number="2">
+        <column_headers>
+            <data>Check</data>
+            <data>Number of Issues</data>
+        </column_headers>
+        <row>
+            <data>no_clock</data>
+            <data>0</data>
+            <table_container>
+                <table id="no_clock_detailed_report" title="no_clock" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 clock pins with no clock driven</data>
+                    </row>
+                    <row>
+                        <data>There are 0 nodes without an associated clock assignment.</data>
+                    </row>
+                    <row>
+                        <data>There are 0 ports with an input/output delay that no clock specified.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>virtual_clock</data>
+            <data>1</data>
+            <table_container>
+                <table id="virtual_clock_detailed_report" title="virtual_clock" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>No virtual clock was found.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>unexpandable_clocks</data>
+            <data>0</data>
+            <table_container>
+                <table id="unexpandable_clocks_detailed_report" title="unexpandable_clocks" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 clock sets in which the period is not expandable.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>no_input_delay</data>
+            <data>1</data>
+            <table_container>
+                <table id="no_input_delay_detailed_report" title="no_input_delay" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 1 input ports with no input delay specified.</data>
+                        <row>
+                            <data>clk_50M</data>
+                        </row>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>no_output_delay</data>
+            <data>4</data>
+            <table_container>
+                <table id="no_output_delay_detailed_report" title="no_output_delay" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 4 output ports with no output delay specified.</data>
+                        <row>
+                            <data>ad1oe</data>
+                        </row>
+                        <row>
+                            <data>ad2oe</data>
+                        </row>
+                        <row>
+                            <data>ad_clk1</data>
+                        </row>
+                        <row>
+                            <data>ad_clk2</data>
+                        </row>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>partial_input_delay</data>
+            <data>0</data>
+            <table_container>
+                <table id="partial_input_delay_detailed_report" title="partial_input_delay" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 input ports with partial input delay specified.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>partial_output_delay</data>
+            <data>0</data>
+            <table_container>
+                <table id="partial_output_delay_detailed_report" title="partial_output_delay" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 output ports with partial output delay specified.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>io_min_max_delay_consistency</data>
+            <data>0</data>
+            <table_container>
+                <table id="io_min_max_delay_consistency_detailed_report" title="io_min_max_delay_consistency" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 io delay sets that min delay values are not less than max delay values.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>input_delay_assigned_to_clock</data>
+            <data>0</data>
+            <table_container>
+                <table id="input_delay_assigned_to_clock_detailed_report" title="input_delay_assigned_to_clock" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 input delays set on clock ports.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>loops</data>
+            <data>0</data>
+            <table_container>
+                <table id="loops_detailed_report" title="loops" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 combinational loops in the design.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>latch_loops</data>
+            <data>0</data>
+            <table_container>
+                <table id="latch loops_detailed_report" title="latch_loops" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 latch loops in the design.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>latchs</data>
+            <data>0</data>
+            <table_container>
+                <table id="latchs_detailed_report" title="latchs" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 latchs in the design.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+    </table>
+    <table id="synthesize_resource_usage" title="GTP Usage" column_number="2">
+        <column_headers>
+            <data>GTP Name</data>
+            <data>Usage</data>
+        </column_headers>
+        <comment>
+            <data>
+Total LUTs: 0 of 42800 (0.00%)
+	LUTs as dram: 0 of 17000 (0.00%)
+	LUTs as logic: 0
+Total Registers: 0 of 64200 (0.00%)
+Total Latches: 0
+
+DRM18K:
+Total DRM18K = 0.0 of 134 (0.00%)
+
+APMs:
+Total APMs = 0.00 of 84 (0.00%)
+
+Total I/O ports = 27 of 296 (9.12%)
+</data>
+        </comment>
+        <row>
+            <data>GTP_GRS                      </data>
+            <data>1</data>
+        </row>
+        <row>
+            <data>GTP_PLL_E3                   </data>
+            <data>1</data>
+        </row>
+        <row>
+            <data>GTP_INBUF                 </data>
+            <data>23</data>
+        </row>
+        <row>
+            <data>GTP_OUTBUF                 </data>
+            <data>4</data>
+        </row>
+    </table>
+    <table id="synthesize_constraint_files" title="Constraint Files Read" column_number="2">
+        <column_headers>
+            <data>File Name</data>
+            <data>File Type</data>
+        </column_headers>
+        <row>
+            <data>E:/3pa1030_test/project.fdc</data>
+            <data>fdc</data>
+        </row>
+    </table>
+    <table id="synthesize_runtime" title="Synthesize Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:2s</data>
+            <data>0h:0m:2s</data>
+            <data>0h:0m:4s</data>
+            <data>247</data>
+            <data>WINDOWS 10 x86_64</data>
+            <data>AMD Ryzen 7 5800H with Radeon Graphics</data>
+            <data>15</data>
+        </row>
+    </table>
+    <table id="synthesize_messages" title="Synthesize Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="6">ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 49)] | Port ad_data1[0] has been placed at location Y13, whose type is share pin.</data>
+        </row>
+        <row>
+            <data message="6">ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 68)] | Port ad1oe has been placed at location AB13, whose type is share pin.</data>
+        </row>
+        <row>
+            <data message="6">ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 83)] | Port ad_data2[8] has been placed at location Y5, whose type is share pin.</data>
+        </row>
+        <row>
+            <data message="6">ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 88)] | Port ad_data2[7] has been placed at location AB5, whose type is share pin.</data>
+        </row>
+        <row>
+            <data message="6">ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 158)] | Port rst_n has been placed at location K18, whose type is share pin.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND0'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND1'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND6'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND7'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[0]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[1]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[2]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[3]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[4]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[5]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[6]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[7]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[8]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[9]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[0]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[1]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[2]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[3]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[4]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[5]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[6]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[7]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[8]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[9]'.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'ad1oe' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'ad2oe' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'ad_clk1' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'ad_clk2' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'clk_50M' is not constrained, it is treated as combinational input.</data>
+        </row>
+    </table>
+    <general_container id="synthesize_settings">
+        <table_container>
+            <table id="synthesize_settings" title="Synthesize Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PGL50H-6FBG484</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>top</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Option</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Fanout Guide</data>
+                        <data>10000</data>
+                    </row>
+                    <row>
+                        <data>Disable I/O Insertion</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Enable Advanced LUT Combining</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Automatic Read/Write Check Insertion for RAM</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Resource Sharing</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Pipelining</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Retiming</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Minimum Control-set Size</data>
+                        <data>2</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Timing Report</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Total Number of Paths (-max_path)</data>
+                        <data>3</data>
+                    </row>
+                    <row>
+                        <data>Number of Paths per Endpoint (-nworst)</data>
+                        <data>1</data>
+                    </row>
+                    <row>
+                        <data>Report Exception</data>
+                        <data>true</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Constraints</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Frequency (MHz)</data>
+                        <data>1</data>
+                    </row>
+                    <row>
+                        <data>Use Clock Period for Unconstrained IO</data>
+                        <data>false</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+</tables>

@@ -1,0 +1,54 @@
+##### Written on 2025/09/17 15:11:23 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	top
+
+Constraint File(s) : 
+	E:/3pa1030_test/project.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 5 critical warning(s), 0 warning(s), out of 148 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+define_attribute {p:ad_data1[0]} {PAP_IO_LOC} {Y13}
+	C: ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 49)] | Port ad_data1[0] has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:ad1oe} {PAP_IO_LOC} {AB13}
+	C: ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 68)] | Port ad1oe has been placed at location AB13, whose type is share pin.
+
+define_attribute {p:ad_data2[8]} {PAP_IO_LOC} {Y5}
+	C: ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 83)] | Port ad_data2[8] has been placed at location Y5, whose type is share pin.
+
+define_attribute {p:ad_data2[7]} {PAP_IO_LOC} {AB5}
+	C: ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 88)] | Port ad_data2[7] has been placed at location AB5, whose type is share pin.
+
+define_attribute {p:rst_n} {PAP_IO_LOC} {K18}
+	C: ConstraintEditor-2002: [E:/3pa1030_test/project.fdc(line number: 158)] | Port rst_n has been placed at location K18, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+Issues without commands:
+********************************************
+
+
+Unconstrained ports:
+********************************************
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+

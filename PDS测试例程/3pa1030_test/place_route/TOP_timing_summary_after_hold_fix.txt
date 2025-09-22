@@ -1,0 +1,108 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ DebugCore_JCLK         DebugCore_JCLK              23.819       0.000              0            515
+ DebugCore_CAPTURE      DebugCore_JCLK              21.338       0.000              0            108
+ DebugCore_JCLK         DebugCore_CAPTURE           45.334       0.000              0             16
+ top|u_pll/u_pll_e3/CLKOUT0
+                        top|u_pll/u_pll_e3/CLKOUT0
+                                                   996.638       0.000              0            717
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ DebugCore_JCLK         DebugCore_JCLK               0.312       0.000              0            515
+ DebugCore_CAPTURE      DebugCore_JCLK              22.316       0.000              0            108
+ DebugCore_JCLK         DebugCore_CAPTURE            2.564       0.000              0             16
+ top|u_pll/u_pll_e3/CLKOUT0
+                        top|u_pll/u_pll_e3/CLKOUT0
+                                                     0.312       0.000              0            717
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ top|u_pll/u_pll_e3/CLKOUT0
+                        top|u_pll/u_pll_e3/CLKOUT0
+                                                   997.651       0.000              0            297
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ top|u_pll/u_pll_e3/CLKOUT0
+                        top|u_pll/u_pll_e3/CLKOUT0
+                                                     0.591       0.000              0            297
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ DebugCore_JCLK         DebugCore_JCLK              24.156       0.000              0            515
+ DebugCore_CAPTURE      DebugCore_JCLK              22.255       0.000              0            108
+ DebugCore_JCLK         DebugCore_CAPTURE           46.902       0.000              0             16
+ top|u_pll/u_pll_e3/CLKOUT0
+                        top|u_pll/u_pll_e3/CLKOUT0
+                                                   997.628       0.000              0            717
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ DebugCore_JCLK         DebugCore_JCLK               0.251       0.000              0            515
+ DebugCore_CAPTURE      DebugCore_JCLK              23.537       0.000              0            108
+ DebugCore_JCLK         DebugCore_CAPTURE            1.784       0.000              0             16
+ top|u_pll/u_pll_e3/CLKOUT0
+                        top|u_pll/u_pll_e3/CLKOUT0
+                                                     0.251       0.000              0            717
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ top|u_pll/u_pll_e3/CLKOUT0
+                        top|u_pll/u_pll_e3/CLKOUT0
+                                                   998.274       0.000              0            297
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ top|u_pll/u_pll_e3/CLKOUT0
+                        top|u_pll/u_pll_e3/CLKOUT0
+                                                     0.444       0.000              0            297
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

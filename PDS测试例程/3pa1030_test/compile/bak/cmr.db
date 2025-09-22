@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="compile_source_files" title="Design Files Read" column_number="2">
+        <column_headers>
+            <data>File Name</data>
+            <data>File Type</data>
+        </column_headers>
+        <row>
+            <data>E:/3pa1030_test/source/top.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/3pa1030_test/ipcore/ad_clock/ad_clock.idf</data>
+            <data>IP</data>
+        </row>
+    </table>
+    <table id="compile_runtime" title="Compile Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:1s</data>
+            <data>0h:0m:1s</data>
+            <data>0h:0m:3s</data>
+            <data>138</data>
+            <data>WINDOWS 10 x86_64</data>
+            <data>AMD Ryzen 7 5800H with Radeon Graphics</data>
+            <data>15</data>
+        </row>
+    </table>
+    <table id="compile_messages" title="Compile Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="4">Enable Verilog2k features and keywords</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/3pa1030_test/source/top.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/3pa1030_test/source/top.v(line number: 1)] Analyzing module top (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/3pa1030_test/ipcore/ad_clock/ad_clock.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 18)] Analyzing module ad_clock (library work)</data>
+        </row>
+        <row>
+            <data message="4">Module &quot;top&quot; is set as top module.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/3pa1030_test/source/top.v(line number: 1)] Elaborating module top</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/3pa1030_test/source/top.v(line number: 28)] Elaborating instance u_pll</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 18)] Elaborating module ad_clock</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 228)] Elaborating instance u_pll_e3</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 115)] Net clkfb in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 118)] Net pfden in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 119)] Net clkout0_gate in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 120)] Net clkout0_2pad_gate in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 121)] Net clkout1_gate in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 122)] Net clkout2_gate in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 123)] Net clkout3_gate in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 124)] Net clkout4_gate in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 125)] Net clkout5_gate in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 126)] Net dyn_idiv in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 127)] Net dyn_odiv0 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 128)] Net dyn_odiv1 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 129)] Net dyn_odiv2 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 130)] Net dyn_odiv3 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 131)] Net dyn_odiv4 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 132)] Net dyn_fdiv in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 133)] Net dyn_duty0 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 134)] Net dyn_duty1 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 135)] Net dyn_duty2 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 136)] Net dyn_duty3 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/3pa1030_test/ipcore/ad_clock/ad_clock.v(line number: 137)] Net dyn_duty4 in ad_clock(original module ad_clock) does not have a driver, tie it to 0</data>
+        </row>
+    </table>
+    <general_container id="compile_settings">
+        <table_container>
+            <table id="compile_settings" title="Compile Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PGL50H-6FBG484</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>top</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Verilog</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>SystemVerilog</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Allow Duplicate Modules</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Multiple File Compilation Unit</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Include Path Order: 
+ (Relative to Verilog File)</data>
+                        <data>E:/3pa1030_test	</data>
+                    </row>
+                    <row>
+                        <data>Parameters/Generics</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Compiler Directives</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Loop Limit</data>
+                        <data>2000</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Options</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>FSM Compiler</data>
+                        <data>auto</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+</tables>
