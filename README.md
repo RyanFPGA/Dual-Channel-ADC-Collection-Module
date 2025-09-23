@@ -1,10 +1,14 @@
 # RyanFPGA 双路高速AD采集模块
 
-|                       |                       |
-| --------------------- | --------------------- |
-| ![](.\img\产品-1.png) | ![](.\img\产品-2.png) |
-
-<img src=".\img\产品-3.png" style="zoom:50%;" />
+<table>
+  <tr>
+    <td><img src="./img/产品-1.png" style="zoom:50%;" /></td>
+    <td><img src="./img/产品-2.png" style="zoom:50%;" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="./img/产品-3.png" style="zoom:50%;" /></td>
+  </tr>
+</table>
 
 ## 项目简介
 
