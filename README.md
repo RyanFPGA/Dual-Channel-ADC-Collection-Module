@@ -1,4 +1,4 @@
-# RyanFPGA 双通道AD采集模块
+# RyanFPGA 双路高速AD采集模块
 
 ## 项目简介
 
