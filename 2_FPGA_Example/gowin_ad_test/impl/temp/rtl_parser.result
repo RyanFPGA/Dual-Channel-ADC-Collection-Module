@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/Pony/dev_board/ryan_ad/gowin_3pa1030/gowin_ad_test/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/Pony/dev_board/ryan_ad/gowin_3pa1030/gowin_ad_test/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Pony/dev_board/ryan_ad/gowin_3pa1030/gowin_ad_test/src/top.v",
+    "InstLine" : 31,
+    "InstName" : "u_pll",
+    "ModuleFile" : "D:/Pony/dev_board/ryan_ad/gowin_3pa1030/gowin_ad_test/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   }
+  ]
+ }
+]

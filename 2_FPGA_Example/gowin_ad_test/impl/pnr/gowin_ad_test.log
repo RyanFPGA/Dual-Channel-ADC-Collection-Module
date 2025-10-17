@@ -1,0 +1,26 @@
+Reading netlist file: "D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\impl\gwsynthesis\gowin_ad_test.vg"
+Parsing netlist file "D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\impl\gwsynthesis\gowin_ad_test.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\src\gowin_ad_test.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Generate file "D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\impl\pnr\gowin_ad_test.pin.html" completed
+Generate file "D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\impl\pnr\gowin_ad_test.rpt.html" completed
+Generate file "D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\impl\pnr\gowin_ad_test.rpt.txt" completed
+Generate file "D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\impl\pnr\gowin_ad_test.tr.html" completed
+Wed Oct 15 10:04:04 2025
+

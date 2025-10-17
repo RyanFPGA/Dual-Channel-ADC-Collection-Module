@@ -1,0 +1,14 @@
+-d D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\impl\gwsynthesis\gowin_ad_test.vg
+-p GW5A-25A-UBGA324-2
+-pn GW5A-LV25UG324C2/I1
+-cst D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\src\gowin_ad_test.cst
+-cfg D:\Pony\dev_board\ryan_ad\gowin_3pa1030\gowin_ad_test\impl\pnr\device.cfg
+-gao_crc 1001001000001011
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-rtl_gao
